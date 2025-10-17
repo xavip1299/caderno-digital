@@ -1,6 +1,6 @@
 # Caderno Digital Acadêmico
 
-Este é um caderno digital criado com Jekyll para GitHub Pages, destinado ao acompanhamento e documentação do percurso académico.
+Este é um caderno digital criado com Jekyll para GitHub Pages, destinado ao acompanhamento e documentação do percurso académico da disciplina Produção de conteúdos multimedia.
 
 ## 🚀 Como Começar
 
@@ -13,7 +13,7 @@ Este é um caderno digital criado com Jekyll para GitHub Pages, destinado ao aco
 
 1. **Clone o repositório**:
 ```bash
-git clone https://github.com/seuusername/caderno-digital.git
+git clone https://github.com/xavip1299/caderno-digital.git
 cd caderno-digital
 ```
 
@@ -40,7 +40,7 @@ Abra o browser em `http://localhost:4000`
    - Escolha a branch `main` e a pasta `/ (root)`
 
 3. **Atualize o `_config.yml`**:
-   - Altere `url` para `https://seuusername.github.io`
+   - Altere `url` para `https://xavip1299.github.io`
    - Altere `baseurl` para `/caderno-digital`
 
 4. **Faça push do código**:
@@ -235,6 +235,6 @@ Contribuições são bem-vindas! Por favor:
 
 ---
 
-**Última atualização**: Outubro 2024
+**Última atualização**: Outubro 2025
 
 Para mais informações ou suporte, visite a página de [contacto](contato.md) do site.
