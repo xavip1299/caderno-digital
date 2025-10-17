@@ -17,13 +17,6 @@ Resumos e conteúdos das aulas da disciplina Produção de Conteúdos Multimedia
         {% if aula.date %}
           <p class="item-date">{{ aula.date | date: site.minima.date_format }}</p>
         {% endif %}
-        {% if aula.tags %}
-          <div class="item-tags">
-            {% for tag in aula.tags %}
-              <span class="tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
         {% if aula.excerpt %}
           <p class="item-excerpt">{{ aula.excerpt | strip_html | truncatewords: 30 }}</p>
         {% endif %}

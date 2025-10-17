@@ -82,8 +82,6 @@ caderno-digital/
 layout: post
 title: "Título do Post"
 date: 2024-10-17 10:00:00 +0000
-categories: [categoria1, categoria2]
-tags: [tag1, tag2, tag3]
 author: "Seu Nome"
 ---
 ```
@@ -139,10 +137,6 @@ header_pages:
 4. **Aplicações práticas**: Exemplos concretos
 5. **Questões futuras**: Pontos para explorar
 
-### Uso de Tags e Categorias
-- **Categorias**: Grandes áreas temáticas (máximo 2-3 por post)
-- **Tags**: Tópicos específicos (múltiplas tags são bem-vindas)
-
 ### Formatação em Markdown
 ```markdown
 # Título Principal
@@ -179,7 +173,6 @@ header_pages:
 - Use títulos descritivos
 - Adicione meta descrições aos posts
 - Otimize imagens antes de adicionar
-- Use tags e categorias consistentemente
 
 ## 📚 Recursos Úteis
 
