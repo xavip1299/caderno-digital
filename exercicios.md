@@ -1,58 +1,23 @@
 ---
 layout: page
-title: Exercícios Práticos
+title: Exercícios Práticos  
 permalink: /exercicios/
+date: 2024-10-17
 ---
 
-# Exercícios Práticos
+# {{ page.title }}
 
-Documentação dos exercícios e trabalhos práticos realizados durante a disciplina.
-
----
-
-## Exercício 1 - [Nome do Exercício]
-**Data de entrega:** [Data]
-**Objetivo:** [Descrição do objetivo]
-
-### Descrição:
-[Descrição detalhada do exercício]
-
-### Resultado:
-[Descrição do que foi feito/criado]
-
-### Reflexão:
-[Suas reflexões sobre o exercício - dificuldades, aprendizagens, etc.]
-
----
-
-## Exercício 2 - [Nome do Exercício]
-**Data de entrega:** [Data]
-**Objetivo:** [Descrição do objetivo]
-
-### Descrição:
-[Descrição detalhada do exercício]
-
-### Resultado:
-[Descrição do que foi feito/criado]
-
-### Reflexão:
-[Suas reflexões sobre o exercício]
-
----
-
-## Exercício 3 - [Nome do Exercício]
-**Data de entrega:** [Data]
-**Objetivo:** [Descrição do objetivo]
-
-### Descrição:
-[Descrição detalhada do exercício]
-
-### Resultado:
-[Descrição do que foi feito/criado]
-
-### Reflexão:
-[Suas reflexões sobre o exercício]
-
----
-
-*Esta página será atualizada com cada novo exercício realizado.*
+{% if site.collections.exercicios.docs.size > 0 %}
+  <div class="collection-list">
+    {% for exercicio in site.exercicios %}
+      <div class="collection-item">
+        <h3><a href="{{ exercicio.url | relative_url }}">{{ exercicio.title }}</a></h3>
+        {% if exercicio.date %}
+          <p class="item-date">{{ exercicio.date | date: site.minima.date_format }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p><em>Ainda não há exercícios registados.</em></p>
+{% endif %}

@@ -1,0 +1,22 @@
+# Informações da disciplina (exemplo de Jekyll data files)
+disciplina:
+  nome: "Produção de Conteúdos Multimedia"
+  codigo: "PCM"
+  creditos: 6
+  semestre: "1º Semestre"
+  ano_letivo: "2024/2025"
+
+professor:
+  nome: ""
+  email: ""
+  gabinete: ""
+
+calendario:
+  inicio: "2024-09-15"
+  fim: "2025-01-15"
+  
+avaliacao:
+  - tipo: "Exercícios Práticos"
+    peso: 40
+  - tipo: "Projeto Final" 
+    peso: 60

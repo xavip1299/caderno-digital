@@ -3,47 +3,95 @@
 
 @import "minima";
 
-// Estilos simples customizados
+// Variáveis customizadas
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+
+// Home page grid
+.navigation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.nav-item {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: $secondary-color;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    
+    h3 {
+      margin: 0;
+      color: inherit;
+    }
+  }
+}
+
+// Layout melhorado
 .site-header {
-  border-bottom: 2px solid #e1e8ed;
+  background: $primary-color;
+  border-bottom: none;
+  
+  .site-title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    &:visited {
+      color: white;
+    }
+  }
+  
+  .site-nav .page-link {
+    color: rgba(255,255,255,0.8);
+    
+    &:hover {
+      color: white;
+    }
+  }
 }
 
-.site-title {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.page-content {
-  padding: 30px 0;
-}
-
+// Typography melhorada usando Jekyll
+.post-title,
+.page-heading,
 h1 {
-  color: #333;
-  border-bottom: 2px solid #e1e8ed;
-  padding-bottom: 10px;
+  color: $primary-color;
+  border-bottom: 2px solid $secondary-color;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-h2 {
-  color: #555;
+// Collection styling
+.post-collection {
+  background: #e3f2fd;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid $secondary-color;
   margin-top: 2rem;
+  font-style: italic;
 }
 
-h3 {
-  color: #666;
-  margin-top: 1.5rem;
-}
-
-// Estilos para listas
-ul, ol {
-  margin-left: 1.5rem;
-}
-
-// Links simples
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+// Responsive design
+@media screen and (max-width: 600px) {
+  .navigation-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    padding: 1rem;
+  }
 }

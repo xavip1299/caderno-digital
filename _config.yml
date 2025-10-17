@@ -1,31 +1,64 @@
-# Configuração do Jekyll para o Caderno Digital
-
-# Informações do site
+# Configuração Jekyll
 title: "Caderno Digital - Produção de Conteúdos Multimedia"
-description: "Caderno digital simples para a disciplina"
-author: "Xavier"
+description: "Caderno digital para a disciplina"
+author: "Xavier Pires" 
 email: "xavierpires2001@gmail.com"
 
-# URL do site (ajustar conforme o repositório GitHub)
+# URLs
 url: "https://xavip1299.github.io"
 baseurl: "/caderno-digital"
 
-# Configurações Jekyll
+# Jekyll settings
 markdown: kramdown
 highlighter: rouge
 theme: minima
+permalink: pretty
 
-# Plugins básicos
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Navegação principal
+# Configurações de build
+show_excerpts: false
+minima:
+  date_format: "%d/%m/%Y"
+
+# Collections (para usar mais Jekyll)
+collections:
+  aulas:
+    output: true
+    permalink: /:collection/:name/
+  exercicios:
+    output: true  
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_aulas"
+      type: "aulas"
+    values:
+      layout: "page"
+  - scope:
+      path: "_exercicios"
+      type: "exercicios"
+    values:
+      layout: "page"
+
+# Navegação
 header_pages:
   - aulas.md
   - exercicios.md
   - projeto-final.md
   - recursos.md
 
-# Configurações básicas
+# Info adicional
 github_username: xavip1299
+timezone: Europe/Lisbon

@@ -1,19 +1,31 @@
 ---
-layout: page
+layout: default
 title: "Caderno Digital"
 ---
 
-# Produção de Conteúdos Multimedia
+<div class="home">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
 
-Bem-vindo ao meu caderno digital para a disciplina de Produção de Conteúdos Multimedia.
+  {% if site.data.disciplina %}
+  <div class="disciplina-info">
+    <h2>{{ site.data.disciplina.disciplina.nome }}</h2>
+    <p><strong>Ano Letivo:</strong> {{ site.data.disciplina.disciplina.ano_letivo }}</p>
+  </div>
+  {% endif %}
 
-## Navegação
+  <div class="navigation-grid">
+    {% for page in site.header_pages %}
+      {% assign page_obj = site.pages | where: "path", page | first %}
+      <div class="nav-item">
+        <a href="{{ page_obj.url | relative_url }}">
+          <h3>{{ page_obj.title }}</h3>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 
-- **[Aulas](aulas.html)** - Apontamentos e resumos das aulas
-- **[Exercícios Práticos](exercicios.html)** - Trabalhos práticos realizados
-- **[Projeto Final](projeto-final.html)** - Documentação do projeto final
-- **[Recursos](recursos.html)** - Links e materiais úteis
-
----
-
-Este site contém todo o trabalho desenvolvido ao longo da disciplina, organizado de forma simples e direta.
+  <div class="jekyll-info">
+    <p><small>Gerado com Jekyll • Última atualização: {{ site.time | date: "%d/%m/%Y às %H:%M" }}</small></p>
+  </div>
+</div>
