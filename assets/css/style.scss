@@ -84,6 +84,60 @@ h1 {
   font-style: italic;
 }
 
+.collection-list {
+  margin: 2rem 0;
+}
+
+.collection-item {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+    
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  
+  .item-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .item-tags {
+    margin: 0.5rem 0;
+    
+    .tag {
+      display: inline-block;
+      background: $secondary-color;
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+  }
+  
+  .item-excerpt {
+    color: #495057;
+    font-style: italic;
+    margin-top: 1rem;
+  }
+}
+
 // Responsive design
 @media screen and (max-width: 600px) {
   .navigation-grid {
