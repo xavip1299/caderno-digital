@@ -65,6 +65,130 @@ $accent-color: #e74c3c;
   }
 }
 
+// Typography melhorada
+.post-title,
+.page-heading,
+h1 {
+  color: $primary-color;
+  border-bottom: 2px solid $secondary-color;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// Collection styling
+.collection-list {
+  margin: 2rem 0;
+}
+
+.collection-item {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+    
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  
+  .item-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .item-excerpt {
+    color: #495057;
+    font-style: italic;
+    margin-top: 1rem;
+  }
+}
+
+// Responsive design
+@media screen and (max-width: 600px) {
+  .navigation-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    padding: 1rem;
+  }
+}
+
+// Variáveis customizadas
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+
+// Home page grid
+.navigation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.nav-item {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: $secondary-color;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    
+    h3 {
+      margin: 0;
+      color: inherit;
+    }
+  }
+}
+
+// Layout melhorado
+.site-header {
+  background: $primary-color;
+  border-bottom: none;
+  
+  .site-title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    &:visited {
+      color: white;
+    }
+  }
+  
+  .site-nav .page-link {
+    color: rgba(255,255,255,0.8);
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
 // Typography melhorada usando Jekyll
 .post-title,
 .page-heading,
