@@ -1,0 +1,34 @@
+# Ignorar arquivos do Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignorar arquivos do Ruby
+.bundle/
+vendor/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Ignorar arquivos de configuração local
+_config_local.yml
+
+# Ignorar dependências instaladas localmente
+node_modules/
+
+# Ignorar arquivos de backup
+*.bak
+*.swp
+*.swo
+
+# Ignorar arquivos IDE
+.vscode/
+.idea/
+*.sublime-*

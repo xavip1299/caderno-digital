@@ -1,0 +1,53 @@
+# Configuração do Jekyll para o Caderno Digital
+
+# Informações do site
+title: "Caderno Digital Acadêmico"
+description: "Um espaço para documentar e partilhar o conhecimento adquirido durante o percurso académico"
+author: "Xavier"
+email: "xavip1299@exemplo.com"
+
+# URL do site (ajustar conforme o repositório GitHub)
+url: "https://xavip1299.github.io"
+baseurl: "/caderno-digital"
+
+# Configurações Jekyll
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configurações de build
+safe: true
+source: .
+destination: ./_site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .git/
+  - .gitignore
+
+# Configurações de posts
+permalink: /:categories/:year/:month/:day/:title/
+
+# Navegação principal
+header_pages:
+  - sobre.md
+  - disciplinas.md
+  - projetos.md
+  - recursos.md
+  - contato.md
+
+# Configurações sociais (opcional)
+github_username: xavip1299
+linkedin_username: seulinkedin
+
+# Configurações de SEO
+lang: pt-PT
