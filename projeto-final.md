@@ -2,7 +2,7 @@
 layout: page
 title: Projeto Final
 permalink: /projeto-final/
-date: 2024-10-17
+date: 2025-10-17
 description: "Documentação do projeto final da disciplina"
 ---
 
