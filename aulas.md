@@ -2,7 +2,7 @@
 layout: page
 title: Aulas
 permalink: /aulas/
-date: 2024-10-17
+date: 2025-10-17
 ---
 
 # {{ page.title }}
