@@ -42,11 +42,11 @@ Esta técnica é útil quando:
 ## Exemplo Prático: Antes e Depois
 
 ### Antes - Imagem Original (Dia)
-![Imagem antes da edição]({{ site.baseurl }}/Images/noite_americana_antes.avif)
+![Imagem antes da edição](/caderno-digital/Images/noite_americana_antes.avif)
 
 *Fotografia original capturada durante o dia, com iluminação natural e cores saturadas.*
 
 ### Depois - Noite Americana Aplicada
-![Imagem depois da edição]({{ site.baseurl }}/Images/noite_americana_depois.png)
+![Imagem depois da edição](/caderno-digital/Images/noite_americana_depois.png)
 
 *A mesma imagem após aplicação da técnica Noite Americana, com tons azulados, redução de saturação e ajustes de exposição para simular um ambiente noturno.*

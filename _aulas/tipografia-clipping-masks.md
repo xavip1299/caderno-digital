@@ -67,12 +67,12 @@ Uma **clipping mask** é uma técnica de edição que permite usar uma forma, te
 ## Exemplos 
 
 ### Exemplo 1: Clipping Mask com Sombra
-![Clipping Mask com Sombra]({{ site.baseurl }}/Images/Com_sombra.jpg)
+![Clipping Mask com Sombra](/caderno-digital/Images/Com_sombra.jpg)
 
 *Exemplo de clipping mask aplicada com efeito de sombra, demonstrando como criar profundidade e dimensão no resultado final.*
 
 ### Exemplo 2: Clipping Mask sem Sombra  
-![Clipping Mask sem Sombra]({{ site.baseurl }}/Images/Sem_sombra.jpg)
+![Clipping Mask sem Sombra](/caderno-digital/Images/Sem_sombra.jpg)
 
 *Mesmo exemplo de clipping mask mas sem efeito de sombra, mostrando o resultado mais limpo e direto da técnica.*
 
