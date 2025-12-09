@@ -1,14 +1,21 @@
 ---
 layout: page
-title: "Exercício: Viajantes no Tempo e Cartaz de Evento"
+title: "Exercícios de Edição de Imagem"
 date: 2025-12-09
 ---
 
-# Exercício: Viajantes no Tempo e Cartaz de Evento
+# Exercícios de Edição de Imagem
 
-## Resumo do Trabalho
+## Resumo Geral do Trabalho
 
-Este trabalho gráfico foi desenvolvido ao longo de três fases distintas, cada uma com objetivos e desafios específicos: o **Exercício X ("Viajantes no Tempo")**, o **Exercício Y (Cartaz de Evento)** e a **Adaptação para Instagram**. O projeto demonstra a aplicação prática de técnicas de edição de imagem, design gráfico e adaptação de conteúdo para diferentes plataformas digitais.
+Este documento apresenta um conjunto completo de trabalhos gráficos desenvolvidos, incluindo exercícios académicos obrigatórios e produções criativas realizadas por iniciativa própria. O portfólio inclui:
+
+- **Exercício X**: "Viajantes no Tempo" (fotografia histórica com elementos anacrónicos)
+- **Exercício Y**: Cartaz de Evento "IPMAIA Winter Concert" e adaptações para Instagram
+- **Trabalho C1**: Cartaz temático do artista Dillaz (produção extra)
+- **Trabalho A1**: Edições de paisagem em dois estilos distintos (produção extra)
+
+Todos os trabalhos demonstram a aplicação prática de técnicas avançadas de edição de imagem, design gráfico, color grading e adaptação multiplataforma.
 
 ---
 
@@ -210,3 +217,274 @@ Este projeto demonstra a aplicação integrada de múltiplas competências de de
 - **Pensamento estratégico** na comunicação visual
 
 O resultado final reflete um processo de trabalho estruturado, documentado e alinhado com práticas profissionais da indústria criativa.
+
+---
+
+## Trabalho C1: Cartaz Temático - Dillaz em Concerto
+
+### Conceito e Contexto
+Produção extra desenvolvida por iniciativa própria, baseada numa fotografia de concerto ao vivo do artista português Dillaz. O objetivo foi criar um cartaz temático que capturasse a energia e atmosfera de um espetáculo musical.
+
+### Material Base
+- **Fotografia original**: Cena de palco com o artista
+- **Elemento distintivo**: Grande ecrã LED ao fundo como elemento visual dominante
+- **Contexto**: Ambiente de concerto ao vivo
+
+### Processo Criativo
+
+#### 1. Composição Visual
+- **Enquadramento estratégico** da cena de palco
+- **Valorização do ecrã LED** como elemento gráfico central
+- **Integração do artista** na composição
+- **Equilíbrio entre figura e fundo**
+
+#### 2. Tratamento de Imagem
+
+##### Correção de Cor:
+- **Ajuste de balanço cromático** para reforçar cores do LED
+- **Correção de exposição** em áreas subexpostas
+- **Harmonização da paleta** com a estética do concerto
+- **Preservação de tons naturais** da pele
+
+##### Contraste e Atmosfera:
+- **Criação de contraste dramático** entre luz e sombra
+- **Reforço de iluminação cénica**
+- **Trabalho de sombras** para dar profundidade
+- **Efeitos de atmosfera** (smoke, névoa, luz ambiente)
+
+#### 3. Design e Hierarquia Visual
+- **Organização clara** dos elementos gráficos
+- **Layout coerente** com estética de espetáculo ao vivo
+- **Hierarquia tipográfica** (se aplicável)
+- **Estética urbana/contemporânea** alinhada com o artista
+
+#### 4. Técnicas Aplicadas
+- Ajuste seletivo de luminosidade em diferentes zonas
+- Manipulação de curvas de tonalidade
+- Reforço de saturação em áreas específicas
+- Tratamento de grão/textura para aspeto profissional
+- Sharpening seletivo para destacar detalhes importantes
+
+### Resultado
+Cartaz que captura a energia e atmosfera de um concerto ao vivo, com tratamento profissional de iluminação, cor e composição. O trabalho demonstra capacidade de transformar uma fotografia documental num material promocional visualmente impactante.
+
+---
+
+## Trabalho A1: Edições Fotográficas de Paisagem
+
+### Conceito Global
+Projeto de manipulação fotográfica que transforma uma única imagem de paisagem natural (montanhas refletidas num lago) em dois cenários climaticamente distintos, demonstrando domínio avançado de técnicas de color grading e edição atmosférica.
+
+### Material Base
+- **Fotografia original**: Paisagem de montanhas com reflexo perfeito num lago
+- **Elementos naturais**: Céu, montanhas, água, vegetação
+- **Objetivo**: Criar duas interpretações visuais da mesma cena
+
+---
+
+### Versão 1: Final de Tarde
+
+#### Atmosfera e Estética
+Transformação da paisagem para um cenário de entardecer romântico e caloroso.
+
+#### Técnicas de Color Grading:
+
+##### Paleta Cromática:
+- **Tons rosados dominantes** no céu
+- **Cores quentes** (laranjas, vermelhos suaves, dourados)
+- **Transição gradual** de cores do horizonte ao primeiro plano
+- **Reflexos aquáticos** ajustados para corresponder ao céu
+
+##### Ajustes Técnicos:
+- **Curvas de cor** para introduzir tons quentes
+- **Saturação seletiva** em gamas específicas
+- **Luminosidade ajustada** para simular luz de final de tarde
+- **Balanço de brancos** modificado para temperatura quente
+
+#### Criação de Coerência Climática:
+- **Luz dourada** nas áreas iluminadas das montanhas
+- **Sombras quentes** (não frias)
+- **Reflexos da água** perfeitamente sincronizados com o céu
+- **Vegetação** com tons mais quentes e dourados
+- **Atmosfera difusa** característica do pôr do sol
+
+#### Ferramentas Utilizadas:
+- **Máscaras de camada** para aplicação seletiva de efeitos
+- **Gradientes** para transições suaves de cor
+- **Ajustes de matiz/saturação** por canal de cor
+- **Curvas de tonalidade** para controle preciso de luz
+
+---
+
+### Versão 2: Noite Americana
+
+#### Atmosfera e Estética
+Transformação da paisagem num cenário noturno cinematográfico, utilizando a técnica "Day for Night" amplamente usada no cinema.
+
+#### Conceito de Noite Americana:
+Técnica que consiste em simular uma cena noturna a partir de uma fotografia diurna, criando um ambiente crepuscular/noturno através de:
+- Redução geral de luminosidade
+- Introdução de tons frios (azuis profundos)
+- Contraste acentuado
+- Fonte de luz artificial (lua)
+
+#### Elementos Artificiais Introduzidos:
+
+##### Lua Artificial:
+- **Criação/inserção** de elemento lunar
+- **Posicionamento estratégico** na composição
+- **Halo de luz** realista ao redor da lua
+- **Reflexo no lago** correspondente à posição lunar
+- **Iluminação lunar** afetando paisagem
+
+#### Tratamento de Color Grading Noturno:
+
+##### Paleta Cromática:
+- **Tons frios dominantes** (azuis profundos, cinzas azulados)
+- **Redução significativa de saturação** geral
+- **Contraste acentuado** entre luz e sombra
+- **Dessaturação** de cores quentes
+
+##### Ajustes Técnicos Avançados:
+- **Curvas de cor** para empurrar imagem para espectro frio
+- **Redução de exposição** global controlada
+- **Aumento de contraste** para efeito dramático
+- **Color grading seletivo** por zona de luminosidade
+- **Luminosidade seletiva** para manter detalhes nas sombras
+
+#### Criação de Coerência Climática Noturna:
+
+##### Iluminação Natural vs Artificial:
+- **Luz lunar** como fonte principal
+- **Áreas iluminadas** pela lua com tom azulado
+- **Sombras profundas** mas com detalhe preservado
+- **Reflexo da lua na água** com dissipação realista
+- **Silhuetas** das montanhas contra o céu noturno
+
+##### Atmosfera Noturna:
+- **Névoa/neblina noturna** com tons azulados
+- **Estrelas** (opcional) para reforçar ambiente noturno
+- **Gradiente de céu** noturno realista
+- **Vegetação** escurecida mas com detalhes visíveis
+- **Textura aquática** refletindo luz lunar
+
+#### Ferramentas e Técnicas Específicas:
+- **Máscaras de luminosidade** para separar áreas claras e escuras
+- **Ajustes seletivos** por canal RGB
+- **Color Lookup Tables (LUTs)** para grading cinematográfico
+- **Camadas de ajuste** não destrutivas
+- **Blend modes** para integração de elementos
+- **Gradientes radiais** para luz lunar
+- **Sharpening seletivo** para compensar perda de definição
+
+### Desafios Técnicos Superados
+
+#### Coerência Luz-Sombra:
+- Manter relação realista entre áreas iluminadas e sombreadas
+- Evitar "achatamento" da imagem
+- Preservar profundidade tridimensional
+
+#### Integração de Elementos Artificiais:
+- Fazer a lua parecer natural na composição
+- Criar reflexos convincentes na água
+- Harmonizar iluminação artificial com paisagem real
+
+#### Preservação de Detalhes:
+- Manter definição nas áreas escuras
+- Evitar "clipping" (perda de informação) nas sombras
+- Balancear redução de ruído com preservação de textura
+
+### Comparação Entre Versões
+
+| Aspeto | Final de Tarde | Noite Americana |
+|--------|----------------|-----------------|
+| **Temperatura de cor** | Quente (rosa/laranja) | Fria (azul profundo) |
+| **Luminosidade geral** | Alta a média | Baixa a média-baixa |
+| **Contraste** | Moderado | Alto/dramático |
+| **Saturação** | Alta em tons quentes | Baixa, dessaturada |
+| **Fonte de luz** | Sol (fora de quadro) | Lua (visível) |
+| **Atmosfera** | Romântica, calorosa | Misteriosa, cinematográfica |
+| **Complexidade técnica** | Moderada | Alta |
+
+### Resultados
+Ambas as versões demonstram:
+- **Domínio avançado** de color grading
+- **Compreensão profunda** de luz e sombra
+- **Capacidade de criar atmosferas** distintas
+- **Controle preciso** de ferramentas de edição
+- **Visão criativa** para transformação fotográfica
+- **Coerência técnica** entre todos os elementos
+
+---
+
+## Síntese do Portfólio Completo
+
+### Competências Demonstradas
+
+#### Técnicas de Edição:
+- ✓ Recorte e composição avançados
+- ✓ Ajustes de perspetiva e transformação
+- ✓ Color grading profissional (quente e frio)
+- ✓ Manipulação de luz e sombra
+- ✓ Criação e integração de elementos artificiais
+- ✓ Harmonização cromática
+- ✓ Máscaras e seleções complexas
+- ✓ Curvas de tonalidade e cor
+- ✓ Ajustes seletivos por canal
+
+#### Design Gráfico:
+- ✓ Hierarquia visual eficaz
+- ✓ Composição equilibrada
+- ✓ Tipografia funcional
+- ✓ Paletas de cor coerentes
+- ✓ Layout multiplataforma (A3, Story, Post)
+- ✓ Identidade visual consistente
+- ✓ Design promocional
+
+#### Visão Criativa:
+- ✓ Capacidade de conceptualizar projetos
+- ✓ Adaptação a diferentes estilos (histórico, moderno, concerto, paisagem)
+- ✓ Criação de atmosferas distintas
+- ✓ Storytelling visual
+- ✓ Iniciativa para projetos extra
+
+### Ferramentas Dominadas
+- **Photopea**: Editor principal para todos os projetos
+- **Técnicas de layer**: Camadas de ajuste, blend modes, máscaras
+- **Color grading**: LUTs, curvas, gradientes
+- **Exportação**: Múltiplos formatos otimizados
+
+### Variedade de Projetos
+
+| Projeto | Tipo | Desafio Principal |
+|---------|------|-------------------|
+| **Viajantes no Tempo** | Fotomontagem | Integração anacrônica realista |
+| **IPMAIA Winter Concert** | Design gráfico | Layout promocional + adaptações |
+| **Cartaz Dillaz** | Fotografia de evento | Atmosfera de concerto ao vivo |
+| **Paisagem Tarde** | Color grading | Tons quentes, luz dourada |
+| **Paisagem Noite** | Manipulação complexa | Noite americana, lua artificial |
+
+### Processo de Trabalho Profissional
+- **Pesquisa e planeamento** antes da execução
+- **Documentação sistemática** (WIPs, variações)
+- **Iteração e refinamento** constantes
+- **Atenção ao detalhe** técnico
+- **Cumprimento de requisitos** académicos
+- **Iniciativa criativa** além do exigido
+- **Versatilidade** em diferentes estilos e géneros
+
+---
+
+## Conclusão Final
+
+Este portfólio representa um conjunto diversificado e tecnicamente sofisticado de trabalhos gráficos. A combinação de exercícios académicos obrigatórios (Exercício X e Y) com produções criativas por iniciativa própria (Dillaz e edições de paisagem) demonstra:
+
+1. **Cumprimento rigoroso** dos objetivos académicos
+2. **Motivação autónoma** para explorar além do exigido  
+3. **Versatilidade técnica** em diferentes contextos (histórico, promocional, musical, paisagístico)
+4. **Domínio profissional** de ferramentas de edição
+5. **Capacidade narrativa** através de imagem
+6. **Sensibilidade estética** refinada
+7. **Compreensão avançada** de luz, cor e composição
+
+O trabalho reflete não apenas competência técnica, mas também visão criativa, pensamento crítico e capacidade de traduzir conceitos em realizações visuais de qualidade profissional. A documentação completa e estruturada de todos os processos evidencia maturidade e rigor metodológico adequados às exigências da disciplina e da indústria criativa.
